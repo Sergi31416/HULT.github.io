@@ -1,0 +1,203 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald");
+
+
+
+/*SETUP*/
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body { 
+  margin:0;
+  padding:0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Oswald;
+  perspective: 1px;
+}
+
+
+
+
+
+
+/*SECTION PARTS SIZING*/
+h1 {
+  font-size: 250%
+  
+}
+.text-center{
+  color: white;
+}
+.header h1{
+  margin-top: -20px;
+  color: white;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 150%;
+  color: #333;
+}
+.section {
+  position: relative;
+  padding: 20% 10%;
+  min-height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, .7), 0 -5px 1px rgba(0, 0, 0, .7);
+  background: 50% 50% / cover;  
+}
+
+
+
+/*SECTION DATA BOXES*/
+.text {
+  width: 50%;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background: rgba(200,200,200, .7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+#section1 .text{
+  margin-left: auto;
+  margin-right: auto;
+}
+#section2 .text{
+  margin-left: 0;
+  margin-right: auto;
+}
+#section3 .text{
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -50px;
+}
+.header, .footer {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+.Team{
+  color:white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+/*SECTION IMAGES*/
+#title {
+  background-image: url("https://www.expatica.com/wp-content/uploads/2018/11/Investments-1-1920x1080.jpg");
+  background-attachment: fixed;  
+}
+#section1{
+  background-image: url("https://userscontent2.emaze.com/images/49dfcbc2-3739-474e-a6c3-963d6f0e9f27/2428cd6a5973c565cdb6fc75230f061d.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+#section2 {
+  background-image: url("http://i.imgur.com/SYAARx7.jpg");
+  background-attachment: fixed;
+}
+#section3{
+  background-image: url("http://i.imgur.com/jo4HX13.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+#section4{
+  background: #111;
+}
+
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+}
+
+.button:hover {
+  
+}
+
+
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+
+
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+
+/*our-team-main*/
+
